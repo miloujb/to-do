@@ -12,6 +12,16 @@ class List extends React.Component {
     });
   };
 
+  deleteTask = (removableItem) => {
+    this.setState((currentState) => {
+      const itemData = currentState.items.filter(
+        (item) => removableItem !== item
+      );
+      this.setState({ itemData });
+      return { items: [...itemData] };
+    });
+  };
+
   render() {
     return (
       <>
@@ -23,6 +33,9 @@ class List extends React.Component {
                 <>
                   <li key={item}>
                     <p>{item}</p>
+                    <button onClick={() => this.deleteTask(item)}>
+                      Delete
+                    </button>
                   </li>
                 </>
               );

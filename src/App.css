@@ -1,0 +1,38 @@
+body {
+  background-color: skyblue;
+}
+
+.list {
+  background-image: url("https://image.freepik.com/free-photo/blank-lined-paper-background-texture-with-space_1627-231.jpg");
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+}
+
+li {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

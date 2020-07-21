@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Homemade Apple", cursive;
+}
+
+p {
+  font-family: "Homemade Apple", cursive;
+}
+
+label {
+  font-family: "Homemade Apple", cursive;
+}
+
+button {
+  font-family: "Homemade Apple", cursive;
+}
+
